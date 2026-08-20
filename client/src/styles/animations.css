@@ -1,0 +1,146 @@
+/* Floating Animation */
+
+@keyframes float {
+
+0% {
+transform:translateY(0px);
+}
+
+50% {
+transform:translateY(-15px);
+}
+
+100% {
+transform:translateY(0px);
+}
+
+}
+
+
+.animate-float{
+
+animation:
+float 7s ease-in-out infinite;
+
+}
+
+
+
+/* Neon Glow */
+
+@keyframes glowPulse{
+
+0%{
+
+box-shadow:
+0 0 20px rgba(168,85,247,.2),
+0 0 40px rgba(168,85,247,.1);
+
+}
+
+
+50%{
+
+box-shadow:
+0 0 50px rgba(168,85,247,.45),
+0 0 100px rgba(236,72,153,.2);
+
+}
+
+
+100%{
+
+box-shadow:
+0 0 20px rgba(168,85,247,.2),
+0 0 40px rgba(168,85,247,.1);
+
+}
+
+}
+
+
+.animate-glow{
+
+animation:
+glowPulse 4s infinite;
+
+}
+
+
+
+
+/* Slow Rotation */
+
+
+@keyframes rotateSlow{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+
+.animate-rotate-slow{
+
+animation:
+rotateSlow 60s linear infinite;
+
+}
+
+
+
+
+
+/* Aurora Background */
+
+
+@keyframes aurora{
+
+
+0%{
+
+transform:
+translateX(-10%)
+translateY(0%);
+
+}
+
+
+50%{
+
+transform:
+translateX(10%)
+translateY(-5%);
+
+}
+
+
+100%{
+
+transform:
+translateX(-10%)
+translateY(0%);
+
+}
+
+
+}
+
+
+
+.animate-aurora{
+
+animation:
+aurora 20s ease infinite;
+
+}
