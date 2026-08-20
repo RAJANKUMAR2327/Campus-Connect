@@ -1,0 +1,4 @@
+title = "Campus Connect secret-scanning rules"
+
+[extend]
+useDefault = true
